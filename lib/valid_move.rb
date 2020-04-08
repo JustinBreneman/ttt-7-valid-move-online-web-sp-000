@@ -2,8 +2,8 @@
 def valid_move?(board, index)
   if index >= 0 && index <= 8
     true
-  #elsif index > 8
-    #false
+  elsif index >= 0 && index <= 8
+    true
   #elsif position_taken?
   end
 end
