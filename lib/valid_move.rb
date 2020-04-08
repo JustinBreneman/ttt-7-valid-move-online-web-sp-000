@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board, index)
-  if index <= 0
+  if index < 0
     false
-  elsif index >= 8
+  elsif index > 8
     false
   else true
   end
